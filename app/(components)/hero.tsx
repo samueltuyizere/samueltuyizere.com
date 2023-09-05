@@ -1,5 +1,6 @@
 'use client'
 import MyPicture from '../(assets)/(images)/mine.jpeg'
+import Image from 'next/image'
 
 export default function HeroSection(){
     return(
@@ -19,7 +20,7 @@ export default function HeroSection(){
             </div>
 
             <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2 h-screen">
-                <img className=" h-full lg:max-w-3xl" src={MyPicture.src} alt="My Picture"/>
+                <Image className=" h-full lg:max-w-3xl" src={MyPicture.src} alt="My Picture"/>
             </div>
         </div>
     </div>
