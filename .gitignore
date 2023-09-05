@@ -13,6 +13,7 @@
 /out/
 
 pnpm-lock.yaml
+package-lock.json
 
 # production
 /build
