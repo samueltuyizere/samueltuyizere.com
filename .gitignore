@@ -12,6 +12,8 @@
 /.next/
 /out/
 
+.vscode
+
 pnpm-lock.yaml
 package-lock.json
 
